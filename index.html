@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>IoT Sensor dashboard</title>
 </head>
+
 <body>
     <div class="container">
         <h1>IoT Sensor Dashboard</h1>
@@ -22,11 +24,15 @@
         </div>
 
         <!-- Crontrol button -->
-         <div class="btn-container">
+        <div class="btn-container">
             <h4>LED Control</h4>
-            <button id="led-btn" class="btn">Turn On</button>
-         </div>
+            <label class="toggle-switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+            </label>
+        </div>
     </div>
 </body>
 <script src="./script.js"></script>
+
 </html>
